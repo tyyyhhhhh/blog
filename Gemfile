@@ -3,7 +3,12 @@ git_source(:github) { |repo| "https://github.com/#{repo}.git" }
 
 ruby '2.5.3'
 
+gem 'devise'
+
 gem 'simple_form'
+gem 'wechat'
+gem 'faker', :git => 'https://github.com/stympy/faker.git', :branch => 'master'
+
 
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '~> 5.2.3'
